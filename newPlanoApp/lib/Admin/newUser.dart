@@ -320,36 +320,36 @@ class _RegisterPageState extends State<RegisterPage> {
                     },
                   ),
                 ),
-                const SizedBox(height: 20),
-                TextFormField(
-                  controller: stateController,
-                  decoration: const InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: 'State',
-                    prefixIcon: Icon(Icons.stacked_bar_chart_sharp),
-                  ),
-                  validator: (value) {
-                    if (value!.isEmpty) {
-                      return 'Please enter your state';
-                    }
-                    return null;
-                  },
-                ),
-                const SizedBox(height: 20),
-                TextFormField(
-                  controller: cityController,
-                  decoration: const InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: 'City',
-                    prefixIcon: Icon(Icons.location_city),
-                  ),
-                  validator: (value) {
-                    if (value!.isEmpty) {
-                      return 'Please enter your city';
-                    }
-                    return null;
-                  },
-                ),
+                // const SizedBox(height: 20),
+                // TextFormField(
+                //   controller: stateController,
+                //   decoration: const InputDecoration(
+                //     border: OutlineInputBorder(),
+                //     labelText: 'State',
+                //     prefixIcon: Icon(Icons.stacked_bar_chart_sharp),
+                //   ),
+                //   validator: (value) {
+                //     if (value!.isEmpty) {
+                //       return 'Please enter your state';
+                //     }
+                //     return null;
+                //   },
+                // ),
+                // const SizedBox(height: 20),
+                // TextFormField(
+                //   controller: cityController,
+                //   decoration: const InputDecoration(
+                //     border: OutlineInputBorder(),
+                //     labelText: 'City',
+                //     prefixIcon: Icon(Icons.location_city),
+                //   ),
+                //   validator: (value) {
+                //     if (value!.isEmpty) {
+                //       return 'Please enter your city';
+                //     }
+                //     return null;
+                //   },
+                // ),
                 const SizedBox(height: 20),
                 TextFormField(
                   controller: passwordController,

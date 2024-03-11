@@ -240,30 +240,34 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          //    leading: IconButton(
-          //   icon: Icon(Icons.arrow_back),
-          //   onPressed: () {
-          //     Navigator.pop(context);
-          //   },
-          // ),
-          title: const Text('LOGIN'),
-          centerTitle: true,
-          backgroundColor: Colors.red.shade900,
-          titleTextStyle: const TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
+      appBar: AppBar(
+        //    leading: IconButton(
+        //   icon: Icon(Icons.arrow_back),
+        //   onPressed: () {
+        //     Navigator.pop(context);
+        //   },
+        // ),
+        title: const Text('Login'),
+        centerTitle: true,
+        backgroundColor: Colors.red.shade900,
+        titleTextStyle: const TextStyle(
+          fontSize: 30,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
         ),
-        body: Padding(
-          padding: const EdgeInsets.all(15.0),
+      ),
+      body: SingleChildScrollView(
+        // Wrap the body in SingleChildScrollView
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
           child: Form(
             key: _formKey,
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+
+                SizedBox(height: 150),
                 TextFormField(
                   controller: _emailController,
                   keyboardType: TextInputType.emailAddress,
@@ -398,6 +402,8 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
