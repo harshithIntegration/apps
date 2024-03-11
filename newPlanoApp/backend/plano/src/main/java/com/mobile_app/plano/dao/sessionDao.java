@@ -21,4 +21,17 @@ sessionRepository sessionRepository;
 	public List<session> fetchAllSession() {
 		return sessionRepository.findAll();
 	}
+	
+	public boolean findSessionById(int Id){
+		 if(!sessionRepository.findById(Id).isEmpty()) {
+			 return true;
+		 }else {
+			 return false;
+		 }
+	}
+	public void deleteSessionSpeaker(int Id) {
+		sessionRepository.deleteById(Id);
+	}
+
+	
 }
