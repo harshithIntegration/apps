@@ -40,4 +40,13 @@ public class adminService {
 	public List<session> fetchAllSession() {
 		return sessionDao.fetchAllSession();
 	}
+	
+	public String deleteSessionSpeaker(int Id, HttpSession httpSession) {
+		if(sessionDao.findSessionById(Id)) {
+			sessionDao.deleteSessionSpeaker(Id);
+			return "Deleted";
+		}else {
+			return "Invalid Id";
+		}
+	}
 }

@@ -33,4 +33,6 @@ public class commonDao {
 	public user saveUserEditProfile(user userEdit) {
 		return userRepository.save(userEdit);
 	}
+	
+	
 }
