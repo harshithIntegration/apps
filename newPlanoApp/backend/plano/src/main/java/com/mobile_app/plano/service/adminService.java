@@ -1,4 +1,5 @@
 package com.mobile_app.plano.service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -48,5 +49,12 @@ public class adminService {
 		}else {
 			return "Invalid Id";
 		}
+	}
+
+	@Transactional
+	public String deleteSession(int sessionNumber, HttpSession httpSession) {
+		System.out.println(sessionNumber);
+	sessionDao.deleteSession(sessionNumber);
+	return "deleted";	
 	}
 }

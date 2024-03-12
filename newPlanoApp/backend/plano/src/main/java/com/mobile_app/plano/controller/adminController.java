@@ -49,6 +49,10 @@ public class adminController {
 		return adminService.deleteSessionSpeaker(Id,httpSession);
 	}
 	
+	@DeleteMapping("/deleteSession/{sessionNumber}")
+	public String deleteSession(@PathVariable int sessionNumber,HttpSession httpSession) {
+		return adminService.deleteSession(sessionNumber, httpSession);
+	}
 	
 
 }
