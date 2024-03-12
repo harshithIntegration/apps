@@ -6,4 +6,8 @@ import com.mobile_app.plano.dto.session;
 
 public interface sessionRepository extends JpaRepository<session, Integer>{
 
+	
+
+	void deleteBySessionNumber(int sessionNumber);
+
 }
