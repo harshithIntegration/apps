@@ -54,19 +54,16 @@ public class commonService {
 
 	public user userEditProfile(user u, HttpSession httpSession) {
 		user userEdit=commonDao.findByUserId(u.getUserId());
-		if(u.getUserName()!=null) {
+		if(!u.getUserName().equals("")) {
 		userEdit.setUserName(u.getUserName());
 		}
-		if(u.getUserEmail()!=null) {
+		if(!u.getUserEmail().equals("")) {
 		userEdit.setUserEmail(u.getUserEmail());
 		}
 		if(u.getUserMobile()!=0) {
 		userEdit.setUserMobile(u.getUserMobile());
 		}
-		if(u.getUserGender()!=null) {
-		userEdit.setUserGender(u.getUserGender());
-		}
-		if(u.getUserAddress()!=null) {
+		if(!u.getUserAddress().equals("")) {
 		userEdit.setUserAddress(u.getUserAddress());
 		}
 		return commonDao.saveUserEditProfile(userEdit);
