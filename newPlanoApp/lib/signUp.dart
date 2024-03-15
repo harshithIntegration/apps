@@ -31,7 +31,7 @@ class _SignUpPageState extends State<SignUpPage> {
         centerTitle: true,
         backgroundColor: Colors.red.shade900,
         titleTextStyle: TextStyle(
-          fontSize: 25,
+          fontSize: 20,
           fontWeight: FontWeight.normal,
           color: Colors.white,
         ),

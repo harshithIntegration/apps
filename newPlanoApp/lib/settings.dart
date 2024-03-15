@@ -42,7 +42,7 @@ class _SettingspageState extends State<Settingspage> {
                   child: Text(
                     'View Profile',
                     style: TextStyle(
-                      color: Colors.black,
+                      color: Colors.red.shade900,
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
                     ),
@@ -71,7 +71,7 @@ class _SettingspageState extends State<Settingspage> {
                   child: Text(
                     'Logout',
                     style: TextStyle(
-                      color: Colors.black,
+                      color: Colors.red.shade900,
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
                     ),

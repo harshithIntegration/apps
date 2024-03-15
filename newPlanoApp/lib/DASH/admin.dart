@@ -5,6 +5,8 @@ import 'package:ono/DASH/view.dart';
 import 'package:ono/DASH/dashboard.dart';
 import 'package:ono/DASH/morescreen.dart';
 import 'package:ono/DASH/documentscreen.dart';
+import 'package:ono/doc.dart';
+import 'package:ono/session.dart';
 
 class Adminpage extends StatefulWidget {
   const Adminpage({Key? key}) : super(key: key);
@@ -116,13 +118,23 @@ class _AdminpageState extends State<Adminpage> {
                     title: 'SESSIONS',
                     iconData: CupertinoIcons.timelapse,
                     background: Colors.purple,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Sessionpage()),
+                      );
+                    },
                   ),
                   ItemDashboard(
                     title: 'DOCUMENTS',
                     iconData: CupertinoIcons.folder_circle_fill,
                     background: Colors.pinkAccent,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Docpage()),
+                      );
+                    },
                   ),
                 ],
               ),
@@ -139,7 +151,7 @@ class _AdminpageState extends State<Adminpage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
-            label: 'Menue',
+            label: 'Menu',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.event),

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:ono/DASH/dashboard.dart';
-import 'package:gif_view/gif_view.dart';
+// import 'package:gif_view/gif_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
               children: [
                 // Big logo
                 Image.asset(
-                  'assets/icons/log.png',
+                  'assets/plano.jpg',
                   height: 350,
                   width: 350,
                 ),
