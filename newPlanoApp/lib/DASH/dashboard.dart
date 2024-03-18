@@ -9,9 +9,9 @@ import 'package:ono/viewProfilePage.dart';
 //import 'package:video_player/video_player.dart';
 import 'package:ono/login.dart';
 import 'package:ono/DASH/quote.dart';
-import 'package:ono/DASH/stat.dart';
+// import 'package:ono/DASH/stat.dart';
 import 'package:ono/DASH/bookmarks.dart';
-import 'package:ono/DASH/draft.dart';
+// import 'package:ono/DASH/draft.dart';
 import 'package:ono/settings.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: 'IwFa_H_BlFU',
+      initialVideoId: 'JPMDYejj9uI',
       flags: YoutubePlayerFlags(
         isLive: true,
       ),
@@ -103,9 +103,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Row(
           children: [
             Image.asset(
-              'assets/icons/log.png',
-              height: 65,
-              width: 65,
+              'assets/plano.jpg',
+              height: 45,
+              width: 45,
               fit: BoxFit.contain,
             ),
              SizedBox(width: 8), // Add some space between the image and text
@@ -113,21 +113,21 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Indian Association of',
+                  'PlanoTech Group of Companies',
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 12,
+                    fontSize: 13,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Text(
-                  'Cardiovascular-Thoracic Surgeons',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
+                // Text(
+                //   'Cardiovascular-Thoracic Surgeons',
+                //   style: TextStyle(
+                //     color: Colors.black,
+                //     fontSize: 12,
+                //     fontWeight: FontWeight.bold,
+                //   ),
+                // ),
               ],
             ),
           ],
@@ -161,7 +161,7 @@ class _MyHomePageState extends State<MyHomePage> {
               accountName: Text(
                 'Quantum Paradigm',
                 style: TextStyle(
-                  color: const Color.fromRGBO(255, 255, 255, 1),
+                  color: Color(0xFFFFFFFF),
                   fontSize: 24,
                   fontWeight: FontWeight.w600,
                 ),
@@ -181,8 +181,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       const Icon(
                         Icons.message, // Add your desired icon
-                        color: Color.fromARGB(
-                            255, 53, 52, 52), // Set the icon color
+                        color: Color(0xFF353434), // Set the icon color
                         size: 25, // Set the icon size
                       ),
                       const SizedBox(
@@ -190,7 +189,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Messages',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 58, 55, 55),
+                          color: Color(0xFF3A3737),
                           fontSize: 17.5,
                         ),
                       ),
@@ -215,7 +214,7 @@ class _MyHomePageState extends State<MyHomePage> {
             //     TextButton(
             //       onPressed: () {
             //         Navigator.push(context,
-            //             MaterialPageRoute(builder: (context) => Statpage()));
+            //             MaterialPageRoute(builder: (context) => Stoppage()));
             //       },
             //       child: Row(
             //         // Wrap Text with Row to include an Icon
@@ -265,8 +264,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       const Icon(
                         Icons.star, // Add your desired icon
-                        color: Color.fromARGB(
-                            255, 53, 52, 52), // Set the icon color
+                        color: Color(0xFF353434), // Set the icon color
                         size: 25, // Set the icon size
                       ),
                       const SizedBox(
@@ -274,7 +272,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Starred',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 58, 55, 55),
+                          color: Color(0xFF3A3737),
                           fontSize: 17.5,
                         ),
                       ),
@@ -347,8 +345,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       const Icon(
                         Icons.person, // Add your desired icon
-                        color: Color.fromARGB(
-                            255, 53, 52, 52), // Set the icon color
+                        color: Color(0xFF353434), // Set the icon color
                         size: 30, // Set the icon size
                       ),
                       const SizedBox(
@@ -356,7 +353,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Login',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 58, 55, 55),
+                          color: Color(0xFF3A3737),
                           fontSize: 17.5,
                         ),
                       ),
@@ -390,8 +387,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       const Icon(
                         Icons.settings, // Add your desired icon
-                        color: Color.fromARGB(
-                            255, 53, 52, 52), // Set the icon color
+                        color: Color(0xFF353434), // Set the icon color
                         size: 25, // Set the icon size
                       ),
                       const SizedBox(
@@ -399,7 +395,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Settings',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 58, 55, 55),
+                          color: Color(0xFF3A3737),
                           fontSize: 17.5,
                         ),
                       ),
@@ -431,8 +427,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       const Icon(
                         Icons.admin_panel_settings, // Add your desired icon
-                        color: Color.fromARGB(
-                            255, 53, 52, 52), // Set the icon color
+                        color: Color(0xFF353434), // Set the icon color
                         size: 25, // Set the icon size
                       ),
                       const SizedBox(
@@ -440,7 +435,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Text(
                         'Admin',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 58, 55, 55),
+                          color: Color(0xFF3A3737),
                           fontSize: 17.5,
                         ),
                       ),
@@ -468,29 +463,29 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 20),
             YoutubePlayer(
               controller: _controller,
-              liveUIColor: Colors.amber,
+              liveUIColor: Colors.transparent,
             ),
             SizedBox(height: 20),
             Container(
-              padding: EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: Offset(0, 3),
-                  ),
-                ],
-              ),
+              // padding: EdgeInsets.all(20),
+              // decoration: BoxDecoration(
+              //   color: Colors.white,
+              //   borderRadius: BorderRadius.circular(20),
+              //   boxShadow: [
+              //     BoxShadow(
+              //       color: Colors.grey.withOpacity(0.5),
+              //       spreadRadius: 5,
+              //       blurRadius: 7,
+              //       offset: Offset(0, 3),
+              //     ),
+              //   ],
+              // ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    width: 120,
-                    height: 120,
+                    width: 100,
+                    height: 100,
                     alignment: Alignment.topCenter,
                     decoration: BoxDecoration(
                       color: Colors.grey[200],
@@ -507,7 +502,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.asset(
-                        'assets/dr.jpg',
+                        'assets/sir.jpg',
                         fit: BoxFit.cover,
                         width: 120,
                         height: 120,
@@ -516,12 +511,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'Dr Manoj Durairaj',
+                    'Darshan kumar k',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'President',
+                    ' Director',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                   ),
@@ -531,7 +526,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Marian Cardiac Centre and Research Foundation.',
+                    'CEO of Planotech Group of Companies',
                     textAlign: TextAlign.center,
                     style:
                         TextStyle(fontSize: 10, fontWeight: FontWeight.normal),
@@ -541,25 +536,25 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 20), // Add some space between containers
             Container(
-              padding: EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: Offset(0, 3),
-                  ),
-                ],
-              ),
+              // padding: EdgeInsets.all(20),
+              // decoration: BoxDecoration(
+              //   color: Colors.white,
+              //   borderRadius: BorderRadius.circular(20),
+              //   boxShadow: [
+              //     BoxShadow(
+              //       color: Colors.grey.withOpacity(0.5),
+              //       spreadRadius: 5,
+              //       blurRadius: 7,
+              //       offset: Offset(0, 3),
+              //     ),
+              //   ],
+              // ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    width: 120,
-                    height: 120,
+                    width: 100,
+                    height: 100,
                     alignment: Alignment.topCenter,
                     decoration: BoxDecoration(
                       color: Colors.grey[200],
@@ -576,21 +571,21 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.asset(
-                        'assets/dr1.jpeg',
+                        'assets/nir.jfif',
                         fit: BoxFit.cover,
-                        width: 120,
-                        height: 120,
+                        width: 100,
+                        height: 100,
                       ),
                     ),
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'Dr C. S. Hiremath',
+                    'Niranjan Krishnamurthy',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Secretary',
+                    'Social Media Business Strategist',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                   ),
@@ -600,7 +595,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Director Heart valve Bank and Academics CTVS',
+                    'Planotech Group of Companies',
                     textAlign: TextAlign.center,
                     style:
                         TextStyle(fontSize: 10, fontWeight: FontWeight.normal),
@@ -610,25 +605,25 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 20), // Add some space between containers
             Container(
-              padding: EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
-                    spreadRadius: 5,
-                    blurRadius: 7,
-                    offset: Offset(0, 3),
-                  ),
-                ],
-              ),
+              // padding: EdgeInsets.all(20),
+              // decoration: BoxDecoration(
+              //   color: Colors.white,
+              //   borderRadius: BorderRadius.circular(20),
+              //   boxShadow: [
+              //     BoxShadow(
+              //       color: Colors.grey.withOpacity(0.5),
+              //       spreadRadius: 5,
+              //       blurRadius: 7,
+              //       offset: Offset(0, 3),
+              //     ),
+              //   ],
+              // ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    width: 120,
-                    height: 120,
+                    width: 100,
+                    height: 100,
                     alignment: Alignment.topCenter,
                     decoration: BoxDecoration(
                       color: Colors.grey[200],
@@ -645,7 +640,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.asset(
-                        'assets/dr2.jpg',
+                        'assets/sann.jfif',
                         fit: BoxFit.cover,
                         width: 120,
                         height: 120,
@@ -654,12 +649,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'Dr Satyajit Bose',
+                    'Sanket Dani',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Junior Vice President',
+                    'Employee',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
                   ),
@@ -669,13 +664,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Director Heart valve Bank and Academics CTVS',
+                    'Planotech Group of companies',
                     textAlign: TextAlign.center,
                     style:
                         TextStyle(fontSize: 10, fontWeight: FontWeight.normal),
                   ),
                 ],
-              ),
+              )
             ),
             SizedBox(height: 20),
             Column(

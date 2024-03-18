@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ono/DASH/AboutUsScreen.dart';
-import 'package:ono/DASH/Commitee.dart';
+// import 'package:ono/DASH/Commitee.dart';
 import 'package:ono/DASH/Contact.dart';
-import 'package:ono/DASH/Delegates.dart';
+// import 'package:ono/DASH/Delegates.dart';
 import 'package:ono/DASH/Document.dart';
 import 'package:ono/DASH/Ebadge.dart';
-import 'package:ono/DASH/Exhibitors.dart';
+// import 'package:ono/DASH/Exhibitors.dart';
 import 'package:ono/DASH/Feedback.dart';
 import 'package:ono/DASH/Mettings.dart';
 import 'package:ono/DASH/Mom.dart';
-import 'package:ono/DASH/Speakers.dart';
+// import 'package:ono/DASH/Speakers.dart';
 import 'package:ono/DASH/Venue.dart';
 import 'package:ono/DASH/dashboard.dart';
 import 'package:ono/DASH/documentscreen.dart';
@@ -58,7 +58,7 @@ class _MoreScreenState extends State<MoreScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Menue',
+          'Menu',
           style: TextStyle(
             color: Colors.white,
           ),
@@ -231,7 +231,7 @@ class _MoreScreenState extends State<MoreScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
-            label: 'Menue',
+            label: 'Menu',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.event),

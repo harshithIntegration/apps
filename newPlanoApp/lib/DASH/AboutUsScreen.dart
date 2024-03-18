@@ -50,7 +50,7 @@ class _AboutUspageState extends State<AboutUspage> {
               child: Column(
                 children: <Widget>[
                   const Text(
-                    'WELCOME TO IACTSCON 2024',
+                    'WELCOME TO PLANOTECH',
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -65,11 +65,42 @@ class _AboutUspageState extends State<AboutUspage> {
                       color: Colors.black,
                     ),
                   ),
-                  const Text(
-                    'It\'s my great pleasure & privilege to welcome you to the 70th Annual Conference of Cardiovascular & Thoracic Surgeons IACTSCON-2024 to be held at Hotel MayFair Lagoon & Convention, Bhubaneswar. Bhubaneswar, the capital city of Odisha, is famously known as Temple City, and has recently been crowned as the Sports Capital of India. The City and the state are going to host the IACTSCON for the first time and our aim is to give all of you a memory for a lifetime. Odisha - rich in its heritage & biodiversity is waiting to unfold its best-kept secret on your visit to IACTSCON 2024. Bhubaneswar - Part of the golden triangle, also known as Ekamrakshetra, is gearing up to present before you an academic extravaganza and we will be pampering you with local delicacies and complimentary sightseeing. We are preparing ourselves to welcome you with your family and facilitate your journey to World-famous heritage and religious monuments like Jagannath Temple at Puri, Sun Temple at Konark, Lingaraj & thousand other temples in and around Bhubaneswar, not to forget Khandagiri & Udayagiri Caves. To ensure maximum participation and academic interest amongst the diverse range of members - right from students to junior surgeons to senior consultants, we are initiating a feedback system to help construct our program menu so that everyone has an academic, visual, and gastronomical treat. Leaving no stone unturned, we eagerly look forward to welcoming you to four days of scientific knowledge sharing and reconnect with the fraternity.',
+                  const Text('Our Story',
                     style: TextStyle(
                       fontSize: 15,
-                      fontWeight: FontWeight.w400,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.justify,
+                  ),
+                  const Text('Founded under the visionary leadership of Darshan Kumar K, Planotech Group of Companies has evolved into a beacon of innovation and diversity in the business world. From humble beginnings in event management, we have expanded our horizons to include digital marketing, media production, and philanthropy, consistently setting benchmarks for excellence and creativity.',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w300,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.justify,
+                  ),
+                  const Text('  ',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.justify,
+                  ),
+                  const Text('Our Vision',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.justify,
+                  ),
+                  const Text('At Planotech, our vision is to be at the vanguard of industry innovation and societal transformation. We aim to lead by example, using our diverse business ventures as platforms for positive change and sustainable growth',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w300,
                       color: Colors.black,
                     ),
                     textAlign: TextAlign.justify,

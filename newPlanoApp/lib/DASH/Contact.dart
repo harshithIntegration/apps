@@ -50,7 +50,7 @@ class _ContactpageState extends State<Contactpage> {
               child: Column(
                 children: <Widget>[
                   const Text(
-                    'Conference Secretariat',
+                    'Connect with us',
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
@@ -67,7 +67,7 @@ class _ContactpageState extends State<Contactpage> {
                   ),
                   Center(
                     child: Image.asset(
-                      'assets/p.jpeg', // Replace 'assets/conference_image.png' with the path to your image asset
+                      'assets/plano.jpg', // Replace 'assets/conference_image.png' with the path to your image asset
                       width: 100, // Adjust the width as needed
                       height: 100, // Adjust the height as needed
                     ),
@@ -97,7 +97,7 @@ class _ContactpageState extends State<Contactpage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: const Text(
-                      'Dr. Chandrabhanu Parija',
+                      'Planotech Group of compinies',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -108,7 +108,7 @@ class _ContactpageState extends State<Contactpage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: const Text(
-                      'Organising Secretary',
+                      'Plot no: 49 ',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -119,7 +119,7 @@ class _ContactpageState extends State<Contactpage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: const Text(
-                      'Plot no: 163, 208',
+                      'Ravish Gardenia, Ravish Mangroves Vaderahalli, Post, Vidyaranyapura, Bengaluru, Karnataka 560097',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -130,7 +130,7 @@ class _ContactpageState extends State<Contactpage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: const Text(
-                      'Unit-6, Ganganagar, Bhubaneshwar, 751001',
+                      'Phone no:- +91 8660259585',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -141,106 +141,7 @@ class _ContactpageState extends State<Contactpage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: const Text(
-                      'Phone no:- 9667559095',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'Email id:- iactscon2024@gmail.com',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      '',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      '',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'Important Contacts',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      '',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'For any Registration Related query',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'Mr. Manish Kumar (Registration Office)',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'phone no:- +9108010867767',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black,
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: const Text(
-                      'Email id:- registration@globalics.in',
+                      'Email id:- info@planotechgroupofcompanies.com',
                       style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,

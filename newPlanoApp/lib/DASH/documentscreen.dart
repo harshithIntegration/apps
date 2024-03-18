@@ -79,10 +79,10 @@ class _DocumentScreenState extends State<DocumentScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.more_horiz),
-            label: 'Menue',
+            label: 'Menu',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.description),
+            icon: Icon(Icons.event),
             label: 'Schedule',
           ),
         ],

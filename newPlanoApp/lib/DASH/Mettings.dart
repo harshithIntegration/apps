@@ -50,7 +50,7 @@ class _MettingpageState extends State<Mettingpage> {
               child: Column(
                 children: <Widget>[
                   const Text(
-                    'MEETINGS ARE SCHEDULED AT 5:30',
+                    'MEETINGS ARE SCHEDULED AT 5:30 PM',
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
